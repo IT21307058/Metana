@@ -21,7 +21,7 @@ function Form() {
     other: "",
   });
 
-  const FormTitles = ["Before we start, what is your name?", "What's your email address?", "Which country you are from? 🏡🏡🏡", "What is your phone number?", "What languages and frameworks are you familiar with?", "How would you describe your current level of coding experience?", "What is your current annual compensation? (Optional)", "Certifying StatementThis question is required.*"];
+  const FormTitles = ["Before we start, what is your name?", "What's your email address?", "Which country you are from? 🏡🏡🏡", "What is your phone number?", "What languages and frameworks are you familiar with?", "How would you describe your current level of coding experience?", "What is your current annual compensation? (Optional)", "Certifying Statement*"];
 
   const calculateWidth = (page) => {
     return `${(page + 1) * (100 / 8)}%`;
