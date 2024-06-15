@@ -1,0 +1,198 @@
+*{
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.header{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.form-container {
+  /* display: flex; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #f7f7f7; */
+  width: 100%;
+  height: 80vh;
+}
+
+/* PROGRESS BAR */
+.progressbar {
+  width: 100%;
+  height: 10px;
+  background-color: white;
+  margin-bottom: 50px;
+}
+
+.progressbar div {
+  width: 33.3%;
+  height: 100%;
+  background-color: rgb(98, 0, 255);
+}
+
+.other-info-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.other-info-container input {
+  margin: 5px;
+  width: 200px;
+  height: 40px;
+  padding-left: 5px;
+  font-size: 20px;
+}
+
+/* input {
+  border: 2px solid rgb(98, 0, 255);
+  border-radius: 5px;
+} */
+
+/* input:focus {
+  border: 3px solid rgb(98, 0, 255);
+} */
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+/* .footer button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+} */
+
+.footer button[disabled] {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* label */
+
+.label-text{
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(207,159,255);
+  line-height: 20px;
+  max-width: 100%;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  /* background-color: #f9f9ff; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+}
+
+
+.container {
+  padding: 40px;
+  border-radius: 10px;
+  width: 800px;
+}
+
+h1 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-size: 0.9rem;
+  color: rgb(207,159,255);
+  margin-bottom: 5px;
+}
+
+
+input {
+  width: 100%; /* Ensure the input takes full width */
+  padding: 10px;
+  border: none;
+  border-bottom: 0.5px solid rgb(207,159,255); /* Add underline */
+  font-size: 1rem;
+  /* color: #333; */
+}
+
+select{
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-bottom: 0.5px solid rgb(207,159,255); 
+  font-size: 1rem;
+  background-color: white;
+}
+
+.phoneInput{
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-bottom: 0.5px solid rgb(207,159,255); 
+  font-size: 1rem;
+  background-color: white;
+}
+
+select::placeholder {
+  color: rgb(207,159,255);
+  font-size: 20px;
+}
+
+
+input::placeholder {
+  color: rgb(207,159,255);
+  font-size: 20px;
+}
+
+.submit-button {
+  background-color: #d6a7ff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 900;
+}
+
+.submit-button:hover {
+  background-color: #b593ff;
+}
+
+.hint {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: black;
+}
+
+.divider{
+  display: flex;
+  gap: 10px;
+}
+
+.page4{
+  padding: 20px;
+  width: 800px;
+  align-items: center;
+  justify-content: center;
+}
