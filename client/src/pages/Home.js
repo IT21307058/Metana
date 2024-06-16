@@ -1,5 +1,9 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
+import google from '../assets/google.png'
+import ebay from '../assets/ebay.png'
+import ibm from '../assets/ibm.png'
+import nike from '../assets/nike.png'
 
 function Home() {
     const naviagte = useNavigate();
@@ -29,10 +33,10 @@ function Home() {
                 <div className="companies">
                     <span>Our students used to work at</span>
                     <div className="company-logos">
-                        <img src="" alt="Google" />
-                        <img src="" alt="IBM" />
-                        <img src="" alt="Nike" />
-                        <img src="" alt="eBay" />
+                        <img src={google} alt="Google" />
+                        <img src={ibm} alt="IBM" />
+                        <img src={nike} alt="Nike" />
+                        <img src={ebay} alt="eBay" />
                     </div>
                 </div>
             </div>
